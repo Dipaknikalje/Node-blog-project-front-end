@@ -1,0 +1,328 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .main_common{
+  font-size: 1.2rem;
+  font-weight: 600;
+} */
+.TopPoster__div{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 100%;
+  gap:5px;
+}
+.TopPoster__big{
+  display:flex;
+}
+.TopPoster__big img{
+  width:110%;
+}
+
+.TopPoster__big img{
+  width:100%;
+  height: 510px;
+  border-radius: 10px;
+}
+.TopPoster__big p{
+  position: relative;
+  bottom: 3rem;
+  left: 10rem;
+}
+.TopPoster__big span{
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+.TopPoster__small{
+  display: flex;
+  flex-direction: column;
+}
+.TopPoster__small span{
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+.TopPoster__small p{
+  position: relative;
+  bottom: 3rem;
+  left: 4rem;
+  color: black;
+  z-index: 2;
+
+}
+.TopPoster__small_upper{
+  position:relative;
+  background-size: cover;
+  border-radius:2%;
+  height:245px;
+  width:400px;
+  z-index:-1;
+  overflow: hidden;
+}
+.TopPoster__small_smaller{
+  position:relative;
+  border-radius:2%;
+  height:245px;
+  width:400px;
+  margin-top:8px;
+  overflow: hidden;
+
+}
+.box1{
+  box-shadow: 0px 5px 35px #00000008;
+  position: relative;
+
+}
+
+.common_latest{
+  /* text-align: center; */
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding-left: 5rem;
+  padding-right: 4rem;
+}
+.common_latest img{
+  width:400px;
+  height:230px;
+}
+.common_latest h2{
+  /* display:flex;
+  width:300px;
+  margin-left:2rem;
+  align-items: center;
+  justify-content: center;
+  font-size:larger; */
+  /* color:white; */
+  /* font-size: larger; */
+  /* border:2px solid black; */
+}
+.common_latest p{
+  /* border:2px solid black; */
+  /* display:flex;
+  flex-direction:space-evenly; */
+  /* margin-left:4rem; */
+  width:300px;
+  /* color:white; */
+  /* font-size:small; */
+
+}
+#desc{
+  font-size: medium;
+}
+.desc{
+  font-size:small;
+  font-weight: 400;
+}
+.release{
+  font-size:small;
+}
+
+.bolly-tittle1{
+  margin-left:4rem;
+  width:250px;
+  /* color:white; */
+  font-size:large;
+  font-style: none;
+
+}
+p {
+  /* display: block; */
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.common_latest h6{
+  /* color:white; */
+  margin-left:4rem;
+}
+.Hollywood-div-latest-add{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  box-sizing: border-box;
+  margin: auto;
+}
+.Hollywood_latest{
+  display: flex;
+flex-direction: row;
+align-items: center;
+}
+.Hollywood_latest_p :first-child{
+  color: brown;
+}
+.Hollywood_latest_p{
+padding: 1rem; }
+.home_add{
+  /* border: 1px solid black; */
+  /* height: 100vh; */
+  /* width: 25rem; */
+  /* margin-right:0; */
+ /* background-position: center; */
+
+}
+.home_add img{
+  width:300px;
+  height:100vh;
+  position:relative;
+  top:100px;
+}
+.home_h1{
+  padding: 1rem;
+  background-color: antiquewhite;
+  text-align: center;
+  margin: 1rem 20rem;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1400px){
+  .TopPoster__big img{
+    /* width:570px; */
+    height:410px;
+  }
+  .TopPoster__small_upper{
+    position:relative;
+    /* background-image:url(https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/Dangal-7.jpg); */
+    background-size: contain;
+    border-radius:2%;
+    height:200px;
+    width:350px;
+    margin-left:8px
+  }
+  .TopPoster__small_upper img{
+    height:200px;
+    width:350px;
+  }
+  .TopPoster__small_smaller{
+    position:relative;
+    /* background-image:url(https://stat4.bollywoodhungama.in/wp-content/uploads/2023/02/Shehzada-1-1.jpg); */
+    background-size:contain;
+    border-radius:2%;
+    height:200px;
+    width:350px;
+    margin-left:8px
+  }
+  .TopPoster__small_smaller img{
+    height:200px;
+    width:350px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  #check:checked ~ .TopPoster__div{
+    display: flex;
+    position:absolute;
+    top:800px;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .TopPoster__div{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .TopPoster__big img{
+    width:300px;
+    height:230px;
+  }
+  .TopPoster__big p{
+    position: relative;
+    bottom: 4rem;
+    left:1rem;
+    width:200px;
+    z-index: 1;
+  }
+  .TopPoster__small{
+    position:relative;
+    margin-left:0.5rem;
+  }
+
+  .TopPoster__small_upper{
+    position:relative;
+    background-image:url(https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/Dangal-7.jpg);
+    background-size: cover;
+    border-radius:2%;
+    height:244px;
+    width:300px;
+  }
+  .TopPoster__small_upper img{
+    height:244px;
+    width:300px;
+  }
+  .TopPoster__small_smaller{
+    position:relative;
+    background-image:url(https://stat4.bollywoodhungama.in/wp-content/uploads/2023/02/Shehzada-1-1.jpg);
+    background-size: cover;
+    border-radius:2%;
+    height:244px;
+    width:300px;
+    margin-top:50px;
+  }
+  .TopPoster__small_smaller img{
+    height:244px;
+    width:300px;
+  }
+  .common_latest{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: -40px; */
+
+  }
+  .common_latest img{
+    width:300px;
+    height:230px;
+  }
+  /* .common_latest h2{
+    margin-left:-0.5rem;
+  } */
+ 
+  .Hollywood-div-latest-add{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Hollywood_latest{
+    display: flex;
+  flex-direction: column;
+  
+  }
+ 
+  .home_add{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+ 
+  }
+  .home_add img{
+    width:100%;
+    height:1000px;
+  }
+  .home_h1{
+    margin: 1rem 3rem;
+  }
+}
+.nav_morelink{
+  position:absolute;
+  Right:50px;
+  top:1500px;
+}
+.nav_morelink:hover{
+  color: red;
+}
+.nav_holmorelink:hover{
+color: red;
+}
+.mainlink{
+text-decoration: none;
+color:black;
+}

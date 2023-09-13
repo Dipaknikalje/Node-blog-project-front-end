@@ -1,0 +1,16 @@
+.icon{
+    position:absolute;
+    top:200px;
+}
+
+@media only screen and (max-width: 1000px){
+
+    .icon{
+        position:absolute;
+        top:160px;
+    }
+    .article_img{
+        position:relative;
+        left:-30px;
+    }
+}
