@@ -130,9 +130,9 @@ img{
  .home_add{
   background-image: url(./Assets/fanta.jpg);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width:400px;
-  height:100vh;
+  height:210vh;
   position:relative;
   right:20px;
   bottom:-100px;

@@ -136,7 +136,7 @@ function Home() {
         </div>
 
         <div>
-          <div className="home_add">
+          <div className="home_add-imgs">
           </div>
         </div>
       </div>

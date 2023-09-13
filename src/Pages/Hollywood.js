@@ -81,7 +81,6 @@ function Hollywood() {
               ))}
           </div>
           <div className="home_add">Advertisement</div>
-          <div className="home_add">Advertisement</div>
         </div>
       </div>
     </div>

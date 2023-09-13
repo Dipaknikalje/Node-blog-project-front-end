@@ -170,11 +170,17 @@ padding: 1rem; }
  /* background-position: center; */
 
 }
-.home_add img{
-  width:300px;
-  height:100vh;
+.home_add-imgs{
+  background-image: url(../../Assets/fanta.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  width:400px;
+  height:140vh;
   position:relative;
-  top:100px;
+  right:20px;
+  bottom:-100px;
+  /* top:1550px; */
+  /* top:300px; */
 }
 .home_h1{
   padding: 1rem;
